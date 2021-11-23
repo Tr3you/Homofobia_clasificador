@@ -13,6 +13,8 @@ decorator==5.1.0
 entrypoints==0.3
 fonttools==4.28.2
 idna==3.3
+imbalanced-learn==0.8.1
+imblearn==0.0
 ipykernel==6.5.1
 ipython==7.29.0
 jedi==0.18.1

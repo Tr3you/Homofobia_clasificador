@@ -8,7 +8,7 @@ from logic.lexical import lexical_es, lexical_en
 
 class LexicalVectorizer(BaseEstimator, TransformerMixin):
 
-    def __init__(self, lang='es', text_processing=None):
+    def __init__(self, lang: str='es', text_processing=None):
         try:
             if text_processing is None:
                 self.tp = TextProcessing(lang=lang)
