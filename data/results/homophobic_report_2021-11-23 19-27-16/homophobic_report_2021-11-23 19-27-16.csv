@@ -1,0 +1,28 @@
+model_name;classifier;accuracy_train;accuracy_test;classification_report;date
+tf_idf_uni_bi;SVM;77.04;78.41;"              precision    recall  f1-score   support
+
+           0       0.72      0.93      0.81        44
+           1       0.90      0.64      0.75        44
+
+    accuracy                           0.78        88
+   macro avg       0.81      0.78      0.78        88
+weighted avg       0.81      0.78      0.78        88
+";2021-11-23 19-27-16
+tf_idf_uni_bi;RandomForest;78.06;72.73;"              precision    recall  f1-score   support
+
+           0       0.73      0.73      0.73        44
+           1       0.73      0.73      0.73        44
+
+    accuracy                           0.73        88
+   macro avg       0.73      0.73      0.73        88
+weighted avg       0.73      0.73      0.73        88
+";2021-11-23 19-27-16
+tf_idf_uni_bi;LogReg;86.02;73.86;"              precision    recall  f1-score   support
+
+           0       0.76      0.70      0.73        44
+           1       0.72      0.77      0.75        44
+
+    accuracy                           0.74        88
+   macro avg       0.74      0.74      0.74        88
+weighted avg       0.74      0.74      0.74        88
+";2021-11-23 19-27-16
